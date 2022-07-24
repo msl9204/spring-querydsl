@@ -726,6 +726,5 @@ public class QueryDslBasicTest {
         for (String s : result) {
             System.out.println("s = " + s);
         }
-
     }
 }
