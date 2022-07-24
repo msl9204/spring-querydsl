@@ -28,6 +28,9 @@ class MemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 
+    @Autowired
+    MemberTestRepository memberTestRepository;
+
     @Test
     void basicTest() {
         Member member = new Member("member1", 10);
